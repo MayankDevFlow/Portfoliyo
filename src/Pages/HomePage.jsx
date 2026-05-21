@@ -41,14 +41,13 @@ const HomePage = () => {
       },
     );
   });
-  
 
   useGSAP(() => {
     gsap.from(".animate", {
-      y: 100,
+      x: -200,
       opacity: 0,
       stagger: 0.2,
-      duration: 1,
+      duration: 4,
       ease: "power3.out",
     });
 
@@ -72,7 +71,7 @@ const HomePage = () => {
   return (
     <div id="main" className="  bg-black overflow-hidden ">
       {/* Cursor Div */}
-     <Cursordiv/>
+      <Cursordiv />
 
       {/* Navbar */}
       <Navbar />
@@ -84,8 +83,6 @@ const HomePage = () => {
       <AboutCom />
       {/* Section   5 */}
       <Archivementpage />
-      {/* Section   6 */}
-      <Footer />
     </div>
   );
 };

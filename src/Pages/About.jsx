@@ -8,7 +8,6 @@ const About = () => {
       <div className="h-[120vh] w-full mt-5 bg-black">
         <AboutCom />
       </div>
-      <Footer />
     </div>
   );
 };

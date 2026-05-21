@@ -8,6 +8,7 @@ const MainOutlet = () => {
     <div>
       <Navbar/>
       <Outlet/>
+      <Footer/>
     </div>
   )
 }
