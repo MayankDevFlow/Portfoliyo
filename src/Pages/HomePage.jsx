@@ -43,13 +43,21 @@ const HomePage = () => {
   });
 
   useGSAP(() => {
-    gsap.from(".animate", {
-      x: -200,
-      opacity: 0,
-      stagger: 0.2,
-      duration: 4,
-      ease: "power3.out",
-    });
+    gsap.fromTo(
+      ".animate",
+      {
+        x: -200,
+        opacity: 0,
+        stagger: 0.2,
+        duration: 4,
+        ease: "power3.out",
+      },
+      {
+        x: 0,
+        opacity: 1,
+        duration: 4,
+      },
+    );
 
     gsap.fromTo(
       ".deco",

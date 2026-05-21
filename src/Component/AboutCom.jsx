@@ -60,12 +60,12 @@ const AboutCom = () => {
           <div className="flex justify-center">
             <div
               onClick={() => {
-                redirect("/contact");
+                redirect("/resume");
               }}
               className="border cursor-pointer border-gray-100 h-10 w-50  flex items-center justify-center rounded-3xl "
             >
-              <div className=" group  rounded-3xl  text-xl h-10 w-35 flex flex-col justify-top cursor-pointer text-center overflow-hidden">
-                <button className="group-hover:-translate-y-7 translate-y-1 text-white transition-all duration-300">
+              <div  className=" group  rounded-3xl  text-xl h-10 w-35 flex flex-col justify-top cursor-pointer text-center overflow-hidden">
+                <button  className="group-hover:-translate-y-7 translate-y-1 text-white transition-all duration-300">
                   View Resume
                 </button>
                 <button className="group-hover:-translate-y-6 translate-y-8 text-white transition-all duration-300">

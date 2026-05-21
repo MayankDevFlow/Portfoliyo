@@ -12,14 +12,14 @@ const Section2 = () => {
           className=" flex flex-col justify-end px-5 md:px-10 
                   w-full lg:w-[70vw] h-[50vh] lg:h-[90vh] py-10 md:py-0  "
         >
-          <h3 className="text-lg deco md:text-3xl lg:text-3xl font1 leading-tight lg:px-2 md:px-1">
+          <h3 className="text-lg deco md:text-3xl ml-10 lg:text-3xl font1 leading-tight lg:px-2 md:px-1">
             I’m Specialized in
             <br /> Creating Website Design.
           </h3>
 
           <div className=" bg-black flex items-center justify-center">
             <h1
-              className="text-[180px] cursor-default  animate font-extrabold uppercase text-transparent bg-clip-text bg-top bg-cover"
+              className="lg:text-[180px] md:text-[120px] text-[60px] cursor-default  animate font-extrabold uppercase text-transparent bg-clip-text bg-top bg-cover"
               style={{
                 backgroundImage: `url('${textimg}')`,
               }}
@@ -34,7 +34,7 @@ const Section2 = () => {
           className=" flex justify-start lg:justify-end  md:justify-center
              items-center w-full lg:w-[30vw] h-auto lg:h-[90vh] p-5 lg:mr-8 md:ml-60"
         >
-          <div className="h-[40vh] w-[50vw] md:w-[30vw] lg:w-[15vw] ">
+          <div className="h-[40vh] w-[50vw] ml-20 md:w-[30vw] lg:w-[15vw] ">
             <img
               src={myimg}
               className="h-full w-full object-cover object-top lg:mt-40.5"

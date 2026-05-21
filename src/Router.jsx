@@ -5,6 +5,7 @@ import MainOutlet from "./MainOutlet";
 import About from "./Pages/About";
 import Projects from "./Pages/Projects";
 import Contact from "./Pages/Contact";
+import Resume from './Pages/Resume';
 
  let route = createBrowserRouter([{
     path:"/",
@@ -14,6 +15,7 @@ import Contact from "./Pages/Contact";
         {path:"/about" ,element: <About/>},
         {path:"/projects" ,element: <Projects/>},
         {path:"/contact" ,element: <Contact/>},
+        {path:"/resume" ,element: <Resume/>},
     ]
 }])
 
