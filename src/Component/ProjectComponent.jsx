@@ -26,7 +26,7 @@ const ProjectComponent = () => {
       img: img,
       title: "Blog Website",
       desc: "Blog Reading Website",
-      link: "devblogwebsite.netlify.app",
+      link: "https://devblogwebsite.netlify.app",
     },
   ]);
 
