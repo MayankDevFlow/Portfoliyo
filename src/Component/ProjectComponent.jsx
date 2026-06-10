@@ -6,6 +6,7 @@ gsap.registerPlugin(ScrollTrigger);
 import orderkaro from "../assets/Images/orderkaro.png";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
+import img from "../assets/Images/image.png"
 const ProjectComponent = () => {
   const [project, setProject] = useState([
     {
@@ -22,10 +23,10 @@ const ProjectComponent = () => {
 
     },
     {
-      img: "https://framerusercontent.com/images/PZB0rXS1ZYIMaOVnG0gQICdoM.jpg?scale-down-to=1024",
-      title: "Perfume",
-      desc: "Real Time Chating Application",
-      link: "https://devmayankportfolio.netlify.app",
+      img: img,
+      title: "Blog Website",
+      desc: "Blog Reading Website",
+      link: "devblogwebsite.netlify.app",
     },
   ]);
 

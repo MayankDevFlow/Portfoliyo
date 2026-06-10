@@ -77,7 +77,7 @@ const HomePage = () => {
     );
   });
   return (
-    <div id="main" className="  bg-black overflow-hidden ">
+    <div id="main" className="  bg-black overflow-hidden w-full ">
       {/* Cursor Div */}
       <Cursordiv />
 

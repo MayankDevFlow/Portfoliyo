@@ -32,7 +32,7 @@ const Section3 = () => {
     },
   ]);
   return (
-    <section className="bg-black section3">
+    <section className="bg-black section3 w-full">
       <div className="flex items-center justify-center h-20">
         <div
           onClick={() => {

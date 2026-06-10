@@ -46,7 +46,7 @@ const Archivementpage = () => {
     );
   });
   return (
-    <div className="section6">
+    <div className="section6 w-full">
       <h1 className="text-white Achievement lg:text-6xl md:text-4xl text-3xl font5 lg:mt-40 md:px-10 px-5 ">
         Achievement
       </h1>
